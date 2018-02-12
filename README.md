@@ -65,6 +65,10 @@ Versions
     5. Wide Residual Network [ https://arxiv.org/abs/1605.07146 ]
     6. ResNeXt [ https://arxiv.org/abs/1611.05431 ]
 
+The differnt versions of residual blocks can be visualized as,
+
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/resS.png">
+
 Reference
 -
 1. [Paper Summary](https://www.commonlounge.com/discussion/839d11b9a67d464796e5ba0309611e9b)
