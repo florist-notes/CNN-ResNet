@@ -38,11 +38,17 @@ model.summary()
 Important Points
 -
 
-
     1. After only the first 2 layers, the spatial size gets compressed from an input volume of 224x224
        to a 56x56 volume.
     2. The group tried a 1202-layer network, but got a lower test accuracy, presumably due to overfitting.
     3. Trained on an 8 GPU machine for two to three weeks.
+    4. Batch Normalization after Every CONV layer.
+    5. Xavier/2 initialization from He. et al.
+    6. SGD + Momentum(0.9)
+    7. Learning rate = 0.1, divivded by 10 when validation error plateaus
+    8. Mini batch size - 256
+    9. Weight decay of 1e-5
+    10. No dropout used
     
 Practical
 -
@@ -52,7 +58,7 @@ Will Update : Training...
 Versions
 -
 
-    1. Layers - 50 / 101 / 152 [ https://arxiv.org/abs/1512.03385 ]
+    1. Layers - 34 / 50 / 101 / 152 [ https://arxiv.org/abs/1512.03385 ]
     2. Deep Residual Network [ https://arxiv.org/abs/1512.03385 ]
     3. Wide Residual Network [ https://arxiv.org/abs/1605.07146 ]
     4. ResNeXt [ https://arxiv.org/abs/1611.05431 ]
