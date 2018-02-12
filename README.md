@@ -33,6 +33,8 @@ The idea behind a residual block is that you have your input x go through conv-r
 model.summary()
 -
 
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/resnet.png">
+
 Important Points
 -
 
@@ -41,20 +43,19 @@ Important Points
        to a 56x56 volume.
     2. The group tried a 1202-layer network, but got a lower test accuracy, presumably due to overfitting.
     3. Trained on an 8 GPU machine for two to three weeks.
-    4. 
-    5.
-    6.
     
 Practical
 -
 
+Will Update : Training...
+
 Versions
 -
 
-    1. Layers - 50 / 101 / 152
-    2. Deep Residual Network
-    3. Wide Residual Network
-    4. ResNeXt
+    1. Layers - 50 / 101 / 152 [ https://arxiv.org/abs/1512.03385 ]
+    2. Deep Residual Network [ https://arxiv.org/abs/1512.03385 ]
+    3. Wide Residual Network [ https://arxiv.org/abs/1605.07146 ]
+    4. ResNeXt [ https://arxiv.org/abs/1611.05431 ]
 
 Reference
 -
