@@ -33,7 +33,8 @@ Important Points
 -
 
 
-    1. After only the first 2 layers, the spatial size gets compressed from an input volume of 224x224 to a 56x56 volume.
+    1. After only the first 2 layers, the spatial size gets compressed from an input volume of 224x224
+       to a 56x56 volume.
     2. The group tried a 1202-layer network, but got a lower test accuracy, presumably due to overfitting.
     3. Trained on an 8 GPU machine for two to three weeks.
     4. 
@@ -56,7 +57,7 @@ Reference
 
        CS231n
 
-Other Related Papers:
+Other related papers:
 
 1. [Resnet in Resnet: Generalizing Residual Architectures](https://arxiv.org/abs/1603.08029)
 2. [Residual Networks of Residual Networks: Multilevel Residual Networks](https://arxiv.org/abs/1608.02908)
