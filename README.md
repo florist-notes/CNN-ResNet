@@ -18,6 +18,8 @@ ResNet is a Deep Network proposed by [Kaiming He](http://kaiminghe.com/), [Xiang
 
 Architecture
 -
+As per what we have seen so far, increasing the depth should increase the accuracy of the network, as long as over-fitting is taken care of. But the problem with increased depth is that the signal required to change the weights, which arises from the end of the network by comparing ground-truth and prediction becomes very small at the earlier layers, because of increased depth. It essentially means that earlier layers are almost negligible learned. This is called <b>vanishing gradient.</b> The second problem with training the deeper networks is, performing the optimization on huge parameter space and therefore naively adding the layers leading to higher training error. Residual networks allow training of such deep networks by constructing the network through modules called residual models as shown in the figure. This is called <b>degradation problem.</b>
+
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/comp.png">
 
 We can see that the ResNet architecture is made up of repeated loop kind of blocks with 2 convolutional layer within. This block is called the <b>"Residual block"</b>. A general notion of a residual block can be visualized as,
