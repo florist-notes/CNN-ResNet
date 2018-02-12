@@ -73,5 +73,6 @@ Reference
 
 Other related papers:
 
-1. [Resnet in Resnet: Generalizing Residual Architectures](https://arxiv.org/abs/1603.08029)
-2. [Residual Networks of Residual Networks: Multilevel Residual Networks](https://arxiv.org/abs/1608.02908)
+1. [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
+2. [Resnet in Resnet: Generalizing Residual Architectures](https://arxiv.org/abs/1603.08029)
+3. [Residual Networks of Residual Networks: Multilevel Residual Networks](https://arxiv.org/abs/1608.02908)
