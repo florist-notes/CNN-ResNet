@@ -62,7 +62,7 @@ Reference
 2. [Overview of ResNet](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035)
 3. [Deep Residual Learning](https://blog.waya.ai/deep-residual-learning-9610bb62c355)
 
-       CS231n
+       CS231n : Lecture 9 | CNN Architectures - ResNet
 
 Other related papers:
 
