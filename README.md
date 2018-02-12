@@ -9,6 +9,27 @@ It is a benchmark competition where teams across the world compete to classify, 
 
 This paper is important as it is the first paper which brought down the error rate below human level error of 5-10%. What it meant was that, computers are now less error prone than humans in classifying objects in an image. Several experiments were done to measure human error rate, one of the famous one is covered in [Andrej Karpathy's blog](http://karpathy.github.io/2014/09/02/what-i-learned-from-competing-against-a-convnet-on-imagenet/) on "Experiences with competing against ConvNets on the ImageNet challenge".
 
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/ResNet.gif">
 
 Overview
 -
+
+Architecture
+-
+
+model.summary()
+-
+
+Important Points
+-
+
+Practical
+-
+
+Versions
+-
+
+    1. Layers - 50 / 101 / 152
+    2. Deep Residual Network
+    3. Wide Residual Network
+    4. ResNeXt
