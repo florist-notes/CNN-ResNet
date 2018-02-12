@@ -30,6 +30,8 @@ Imagine a network, A which produces x amount of training error. Construct a netw
 
 The idea behind a residual block is that you have your input x go through conv-relu-conv series. This will give you some F(x). That result is then added to the original input x. Let’s call that H(x) = F(x) + x. In traditional CNNs, your H(x) would just be equal to F(x) right? So, instead of just computing that transformation (straight from x to F(x)), we’re computing the term that you have to add, F(x), to your input, x. Basically, the residual block shown above is computing a “delta” or a slight change to the original input x to get a slightly altered representation (When we think of traditional CNNs, we go from x to F(x) which is a completely new representation that doesn’t keep any information about the original x). The authors believe that “it is easier to optimize the residual mapping than to optimize the original, unreferenced mapping”.
 
+Andrew NG has explained ResNets in his video [Residual Networks (ResNets)](https://youtu.be/K0uoBKBQ1gA) and on [Why Residual Network Works Well?](https://youtu.be/GSsKdtoatm8)
+
 model.summary()
 -
 
