@@ -26,9 +26,13 @@ We can see that the ResNet architecture is made up of repeated loop kind of bloc
 
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/res.png">
 
-Imagine a network, A which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module. 
+Imagine a network A, which produces x amount of training error. Construct a network B by adding few layers on top of A and put parameter values in those layers in such a way that they do nothing to the outputs from A. Let’s call the additional layer as C. This would mean the same x amount of training error for the new network. So while training network B, the training error should not be above the training error of A. And since it DOES happen, the only reason is that learning the identity mapping(doing nothing to inputs and just copying as it is) with the added layers-C is not a trivial problem, which the solver does not achieve. To solve this, the module shown above creates a direct path between the input and output to the module implying an identity mapping and the added layer-C just need to learn the features on top of already available input. Since C is learning only the residual, the whole module is called residual module. 
 
 The idea behind a residual block is that you have your input x go through conv-relu-conv series. This will give you some F(x). That result is then added to the original input x. Let’s call that H(x) = F(x) + x. In traditional CNNs, your H(x) would just be equal to F(x) right? So, instead of just computing that transformation (straight from x to F(x)), we’re computing the term that you have to add, F(x), to your input, x. Basically, the residual block shown above is computing a “delta” or a slight change to the original input x to get a slightly altered representation (When we think of traditional CNNs, we go from x to F(x) which is a completely new representation that doesn’t keep any information about the original x). The authors believe that “it is easier to optimize the residual mapping than to optimize the original, unreferenced mapping”.
+
+For Deep Resnets (50+), 1x1 convolutions are introduced to minimize depth, similar to that from GoogLeNets idea.
+
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/resDeep.JPG">
 
 Andrew NG has explained ResNets in his video [Residual Networks (ResNets)](https://youtu.be/K0uoBKBQ1gA) and on [Why Residual Network Works Well?](https://youtu.be/GSsKdtoatm8)
 
@@ -36,6 +40,11 @@ model.summary()
 -
 
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/resnet.png">
+
+Model Visualizations
+🚴🏼‍♀️  [ResNet-50](http://ethereon.github.io/netscope/#/gist/db945b393d40bfa26006)
+🚴🏼‍♀️  [ResNet-101](http://ethereon.github.io/netscope/#/gist/b21e2aae116dc1ac7b50)
+🚴🏼‍♀️  [ResNet-152](http://ethereon.github.io/netscope/#/gist/d38f3e6091952b45198b)
 
 Important Points
 -
