@@ -58,6 +58,9 @@ Versions
 
 Reference
 -
+1. [Paper Summary](https://www.commonlounge.com/discussion/839d11b9a67d464796e5ba0309611e9b)
+2. [Overview of ResNet](https://towardsdatascience.com/an-overview-of-resnet-and-its-variants-5281e2f56035)
+3. [Deep Residual Learning](https://blog.waya.ai/deep-residual-learning-9610bb62c355)
 
        CS231n
 
