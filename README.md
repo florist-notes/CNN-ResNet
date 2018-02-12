@@ -1,7 +1,7 @@
 # CNN-ResNet
 🕵🏻 Vision : Model 5: ResNet : Image Classification
 
-<b>Paper</b> : ["Deep Residual Learning for Image Recognition"](https://arxiv.org/abs/1512.03385), <b>Talk</b> : [CVPR 2016](https://youtu.be/C6tLw-rPQ2o)
+<b>Paper</b> : ["Deep Residual Learning for Image Recognition"](https://arxiv.org/abs/1512.03385), <b>Talk</b> : [CVPR 2016](https://youtu.be/C6tLw-rPQ2o),
 
 2015 [ILSVRC](http://www.image-net.org/challenges/LSVRC/) ([ImageNet](http://www.image-net.org/) Large-Scale Visual Recognition Challenge) <b>Winner</b> in all the three categories - classification, localization & detection.
 
@@ -13,6 +13,8 @@ This paper is important as it is the first paper which brought down the computer
 
 Overview
 -
+ResNet is a Deep Network proposed by [Kaiming He](http://kaiminghe.com/), [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/), [Shaoqing Ren](http://shaoqingren.com/) and [Jian Sun](http://www.jiansun.org/) from <b>Microsoft Research Asia.</b>
+
 
 Architecture
 -
