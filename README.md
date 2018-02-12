@@ -20,6 +20,12 @@ Architecture
 -
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/comp.png">
 
+We can see that the ResNet architecture is made up of repeated loop kind of blocks with 2 convolution layer within. This block is called the <b>"Residual block"</b>. A general notion of a residual block can be visualized as,
+
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/res.png">
+
+
+
 model.summary()
 -
 
