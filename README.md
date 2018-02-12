@@ -16,6 +16,7 @@ Overview
 
 Architecture
 -
+<img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/comp.png">
 
 model.summary()
 -
