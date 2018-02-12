@@ -59,9 +59,11 @@ Versions
 -
 
     1. Layers - 34 / 50 / 101 / 152 [ https://arxiv.org/abs/1512.03385 ]
-    2. Deep Residual Network [ https://arxiv.org/abs/1512.03385 ]
-    3. Wide Residual Network [ https://arxiv.org/abs/1605.07146 ]
-    4. ResNeXt [ https://arxiv.org/abs/1611.05431 ]
+    2. Identity Mapping Deep Residual Networks [ https://arxiv.org/abs/1603.05027 ]
+    3. Deep Residual Network [ https://arxiv.org/abs/1512.03385 ]
+    4. Deep Networks with Stochastic Depth [ https://arxiv.org/abs/1603.09382 ]
+    5. Wide Residual Network [ https://arxiv.org/abs/1605.07146 ]
+    6. ResNeXt [ https://arxiv.org/abs/1611.05431 ]
 
 Reference
 -
