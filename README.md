@@ -20,11 +20,11 @@ Architecture
 -
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/comp.png">
 
-We can see that the ResNet architecture is made up of repeated loop kind of blocks with 2 convolution layer within. This block is called the <b>"Residual block"</b>. A general notion of a residual block can be visualized as,
+We can see that the ResNet architecture is made up of repeated loop kind of blocks with 2 convolutional layer within. This block is called the <b>"Residual block"</b>. A general notion of a residual block can be visualized as,
 
 <img src="https://github.com/SKKSaikia/CNN-ResNet/blob/master/img/res.png">
 
-
+The idea behind a residual block is that you have your input x go through conv-relu-conv series. This will give you some F(x). That result is then added to the original input x. Let’s call that H(x) = F(x) + x. In traditional CNNs, your H(x) would just be equal to F(x) right? So, instead of just computing that transformation (straight from x to F(x)), we’re computing the term that you have to add, F(x), to your input, x. Basically, the residual block shown above is computing a “delta” or a slight change to the original input x to get a slightly altered representation (When we think of traditional CNNs, we go from x to F(x) which is a completely new representation that doesn’t keep any information about the original x). The authors believe that “it is easier to optimize the residual mapping than to optimize the original, unreferenced mapping”.
 
 model.summary()
 -
