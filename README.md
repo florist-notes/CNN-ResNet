@@ -13,7 +13,7 @@ This paper is important as it is the first paper which brought down the computer
 
 Overview
 -
-ResNet is a Deep Network proposed by [Kaiming He](http://kaiminghe.com/), [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/), [Shaoqing Ren](http://shaoqingren.com/) and [Jian Sun](http://www.jiansun.org/) from <b>Microsoft Research Asia.</b>
+ResNet is a Deep Convolutional Neural Network proposed by [Kaiming He](http://kaiminghe.com/), [Xiangyu Zhang](https://www.cs.purdue.edu/homes/xyzhang/), [Shaoqing Ren](http://shaoqingren.com/) and [Jian Sun](http://www.jiansun.org/) from <b>Microsoft Research Asia.</b>
 
 
 Architecture
