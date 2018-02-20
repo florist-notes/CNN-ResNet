@@ -89,7 +89,7 @@ Reference
        CS231n : Lecture 9 | CNN Architectures - ResNet
 
 Other related papers:
-
+0. [ResNet v2 - 50, 101, 152](https://arxiv.org/abs/1603.05027)
 1. [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)
 2. [Resnet in Resnet: Generalizing Residual Architectures](https://arxiv.org/abs/1603.08029)
 3. [Residual Networks of Residual Networks: Multilevel Residual Networks](https://arxiv.org/abs/1608.02908)
